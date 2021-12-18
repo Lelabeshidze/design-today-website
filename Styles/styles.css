@@ -9,20 +9,14 @@ a {
 ul, ol {
     list-style: none;
 }
-.container {
-    max-width: 2000px;
-    width: 100%;
-    margin: auto;
-    padding: auto;
-}
 .grid-container {
-    max-width: 1900px;
+    max-width: 2000px;
     width: 100%;
     margin: auto;
     padding: auto;
     display: grid;
     grid-template-columns: 1fr 4fr ;
-    grid-template-rows: 1fr 4fr 4fr 4fr 4fr;
+    grid-template-rows: 1fr 4fr;
     
 
 }
@@ -33,15 +27,14 @@ ul, ol {
     grid-row: 1 / 4;
     background-color: #222222;
 }
-.header {
-    background-color: blue;
-}
 .mainsection {
-    background-color: blueviolet;
+    max-width: 2000px;
+    width: 100%;
     grid-row: 2/4 ;
 }
 .footer {
-    background-color: crimson;
+    max-width: 2000px;
+    width: 100%;
     grid-column: 2/3;
 }
 .lines {
@@ -128,22 +121,44 @@ ul, ol {
 .faces img {
     margin-top: 10px;
 }
+.buttom h4 {
+    color: #FFFFFF;
+    margin-right: 115px;
+    margin-top: 15px;
+    font-size: 14px;
+}
 .list {
     display: flex;
     color: #FFFFFF;
     font-size: 12px;
 }
-.buttom {
-    display: flex;
-    color: #FFFFFF;
-    margin-top: 20px;
-    font-size: 14px;
-}
 .search-container {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
 }
+.search-container input {
+    width: 400px;
+    height: 60px;
+    background-color: #F8F8F8;
+    border-radius: 12px;
+    opacity: 1;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none;
+    padding: 10px 35px 10px 15px;
+}
+.search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+  }
+  
+  .search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
 .header {
     background-color: #FFFFFF;
 }
@@ -166,6 +181,8 @@ ul, ol {
     color: #FF2288;
 }
 .profile h4 {
+    display: flex;
+    flex-direction: column;
     color: #FFFFFF;
     background-color: #FF2288;
     border-radius: 5px; 
@@ -182,4 +199,244 @@ ul, ol {
 .profile  {
     padding-right: 5px;
     padding-top: 20px;
+}
+.pinkcircle1 {
+    display: block;
+    background-color: #FF2288;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    margin-left: 15px;
+    position: absolute;
+}
+.pinkcircle2 {
+    display: block;
+    background-color: #FF2288;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    margin-left: 15px;
+    position: absolute;
+}
+.secondnavigationul li {
+    display: inline;
+    padding: 10px;
+}
+.secondnavigationul img {
+    display: inline;
+    padding: 10px;
+}
+.secondnavigation {
+    display: flex;
+    justify-content: space-between;
+}
+.filter li {
+    list-style: none;
+    padding-left:15px;
+    padding-top: 12px;
+}
+.filter img {
+    padding-top: 8px;
+    padding-left: 10px;
+}
+.filter {
+    display: flex;
+    margin-right: 50px;
+    margin-top: 35px;
+    background-color: #fff;
+    border: 1px solid #D8D8D8;
+    border-radius: 12px;
+    width: 110px;
+    height: 45px;
+}
+.secondnavigation  {
+    max-width: 2000px;
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+.mainsectioncontainer {
+    max-width: 2000px;
+    width: 100%;
+    margin-bottom: 50px;
+    padding: auto;
+}
+.secondnavigationul {
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.styleall {
+    background-color: #F2F2F2;
+    border:solid #D8D8D8;
+    border-radius: 12px;
+    border-style: none;  
+}
+.images {
+    max-width: 3000px;
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+.imagesline1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.imagesline2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.imagesline1 img {
+    width:240px;
+}
+.imagesline1 p {
+    width:240px;
+}
+
+.imagesline2 img {
+    width:240px;
+}
+.imagesline2 p{
+    width:240px;
+}
+.load-more {
+    border:solid #D8D8D8;
+    border-radius: 10px;
+    border-style: none;  
+    background-color: #F2F2F2;
+    width: 300px;
+    height: 30px;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+.load-more h5 {
+    padding-top: 10px;
+}
+.footercontainer {
+    max-width: 2000px;
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+.titleandbutton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.button {
+    padding-right: 100px;
+    color: #222222;
+    opacity: 30%;
+}
+.footertitle {
+    color: #222222;
+    opacity: 100%;
+}
+.footerimages {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: 40px;
+    
+}
+.footerimagebox {
+    margin-left:10px;
+    margin-top: 10px;
+}
+.border1 { 
+    border:solid #222222;
+    border-radius: 10px;
+    border-style: none;  
+    background-color: #F2F2F2;
+}
+.border {
+    border:solid #D8D8D8;
+    border-radius: 10px;
+    border-style: none;  
+    background-color: #F2F2F2;   
+}
+.secondfooter {
+    max-width: 2000px;
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.firstflex h6 {
+    padding-top: 10px;
+    color: #222222;
+    font-size: 16px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: start;
+}
+.secondflex h6 {
+    padding-top: 10px;
+    color: #222222;
+    font-size: 16px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: start;
+}
+.thirdflex h6 {
+    padding-top: 10px;
+    color: #222222;
+    font-size: 16px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: start;
+}
+.fourthflex h6 {
+    padding-top: 10px;
+    color: #222222;
+    font-size: 16px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: start;
+}
+.fourthflex {
+    margin-right: 100px;
+}
+h5 {
+    font-size: 16px;
+}
+.firstflex h5 {
+    display: flex;
+    justify-content: start;
+    padding-bottom: 10px;
+}
+.secondflex h5 {
+    display: flex;
+    justify-content: start;
+    padding-bottom: 10px;
+}
+.thirdflex h5 {
+    display: flex;
+    justify-content: start;
+    padding-bottom: 10px;
+}
+.fourthflex h5 {
+    display: flex;
+    justify-content: start;
+    padding-bottom: 10px;
+}
+.endoffooter {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+.name1 {
+    margin-right: 100px;
+    font-size: 16px;
 }
