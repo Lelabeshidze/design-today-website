@@ -321,6 +321,9 @@ ul, ol {
     margin: auto;
     padding: auto;
 }
+.footerimages {
+    background-color: #FAFAFA;
+}
 .titleandbutton {
     display: flex;
     flex-wrap: wrap;
