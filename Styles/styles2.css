@@ -249,6 +249,7 @@ ul, ol {
     display: flex;
     justify-content: start;
     font-family: Avenir LT Std;
+    opacity: 70%;
 }
 .secondflex h6 {
     padding-top: 10px;
@@ -258,6 +259,7 @@ ul, ol {
     display: flex;
     justify-content: start;
     font-family: Avenir LT Std;
+    opacity: 70%;
 }
 .thirdflex h6 {
     padding-top: 10px;
@@ -267,6 +269,7 @@ ul, ol {
     display: flex;
     justify-content: start;
     font-family: Avenir LT Std;
+    opacity: 70%;
 }
 .fourthflex h6 {
     padding-top: 10px;
@@ -276,42 +279,51 @@ ul, ol {
     display: flex;
     justify-content: start;
     font-family: Avenir LT Std;
+    opacity: 70%;
 }
 .fourthflex {
     margin-right: 100px;
+    opacity: 70%;
 }
 h5 {
     font-size: 16px;
     font-family: Avenir LT Std;
+    opacity: 70%;
 }
 .firstflex h5 {
     display: flex;
     justify-content: start;
     padding-bottom: 10px;
     font-family: Avenir LT Std;
+    opacity: 70%;
 }
 .secondflex h5 {
     display: flex;
     justify-content: start;
     padding-bottom: 10px;
     font-family: Avenir LT Std;
+    opacity: 70%;
 }
 .thirdflex h5 {
     display: flex;
     justify-content: start;
     padding-bottom: 10px;
     font-family: Avenir LT Std;
+    opacity: 70%;
 }
 .fourthflex h5 {
     display: flex;
     justify-content: start;
     padding-bottom: 10px;
     font-family: Avenir LT Std;
+    opacity: 70%;
 }
 .endoffooter {
     display: flex;
     justify-content: space-between;
     margin-left: 50px;
+    margin-top: 50px;
+    font-family:Avenir LT Std; 
 }
 .name1 {
     margin-right: 100px;
@@ -348,6 +360,8 @@ h5 {
     width: 80%;
     margin-left: 60px;
     font-family: Avenir LT Std;
+    font-size: 18px;
+    opacity: 80%;
 }
 .box {
     display: flex;
@@ -365,6 +379,7 @@ h5 {
     width: 80%;
     margin-left: 60px;
     font-family: Avenir LT Std;
+    font-size: 16px;
 }
 .center {
     padding-left: 50px;
