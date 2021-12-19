@@ -270,12 +270,6 @@ ul, ol {
     margin-top: 50px;
     margin-left: 60px;
 }
-.styleall {
-    background-color: #F2F2F2;
-    border:solid #D8D8D8;
-    border-radius: 12px;
-    border-style: none;  
-}
 .images {
     display: flex;
     flex-wrap: wrap;
@@ -512,4 +506,109 @@ h5 {
 }
 .ulitems:hover {
     background-color: #FF2288;
+}
+.styleall1 a {
+    background-color: #FFFFFF;
+    border: none;
+    color: #222222;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    font-family: Avenir LT Std;
+}
+.styleall2 a {
+    background-color: #FFFFFF;
+    border: none;
+    color: #222222;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    font-family: Avenir LT Std;
+}
+.styleall3 a {
+    background-color: #FFFFFF;
+    border: none;
+    color: #222222;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    font-family: Avenir LT Std;
+}
+.styleall4 a {
+    background-color: #FFFFFF;
+    border: none;
+    color: #222222;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    font-family: Avenir LT Std;
+}
+.styleall5 a {
+    background-color: #FFFFFF;
+    border: none;
+    color: #222222;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    font-family: Avenir LT Std;
+}
+.styleall6 a {
+    background-color: #FFFFFF;
+    border: none;
+    color: #222222;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    font-family: Avenir LT Std;
+}
+.styleall7 a {
+    background-color: #FFFFFF;
+    border: none;
+    color: #222222;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    font-family: Avenir LT Std;
+}
+.styleall1:hover {
+    background-color: #F2F2F2;
+    border-radius: 8PX;
+}
+.styleall2:hover {
+    background-color: #F2F2F2;
+    border-radius: 8PX;
+}
+.styleall3:hover {
+    background-color: #F2F2F2;
+    border-radius: 8PX;
+}
+.styleall4:hover {
+    background-color: #F2F2F2;
+    border-radius: 8PX;
+}
+.styleall5:hover {
+    background-color: #F2F2F2;
+    border-radius: 8PX;
+}
+.styleall6:hover {
+    background-color: #F2F2F2;
+    border-radius: 8PX;
+}
+.styleall7:hover {
+    background-color: #F2F2F2;
+    border-radius: 8PX;
 }
