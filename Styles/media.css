@@ -52,18 +52,3 @@ a {
         flex-wrap: wrap;
     }
 }
-@media (max-width:480px) {
-    .mainsection {
-        grid-area: mainsection;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-    .navigation {
-        grid-area: navigation;
-        background-color:#222222 ;
-        display: flex;
-        flex-wrap: wrap;
-        width: 400px;
-        width: 100%;
-    }
-}

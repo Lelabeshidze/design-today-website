@@ -75,19 +75,20 @@ ul, ol {
 }
 .ulitems {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     margin-left: 20px;
-    padding-top: 20px;
+    padding-left: 20px;
+    font-family: Avenir LT Std;
 }
 .ulitems a {
     display: flex;
-    margin-top: 10px;
     color: #FFFFFF;
 }
 .ulitems h4 {
     margin-left: 10px;
     font-size: 16px;
-    margin-top: 6px;
+    margin-top: 5px;
 }
 .secondcontainer {
     max-width: 260px;
@@ -192,10 +193,12 @@ ul, ol {
 }
 
 .headertitle1, .headertitle2 {
+    cursor: pointer;
     padding-right: 10px;
     padding-top: 23px;
 }
 .profile  {
+    cursor: pointer;
     padding-right: 5px;
     padding-top: 20px;
 }
@@ -277,12 +280,14 @@ ul, ol {
     width: 100%;
 }
 .imagesline1 {
+    cursor: pointer;
     display: flex;
     flex-wrap: wrap;
     margin-left: 50px;
     margin-top: 40px;
 }
 .imagesline2 {
+    cursor: pointer;
     display: flex;
     flex-wrap: wrap;
     margin-left: 50px;
@@ -304,6 +309,7 @@ ul, ol {
     font-family: Avenir LT Std;
 }
 .load-more {
+    cursor: pointer;
     border:solid #D8D8D8;
     border-radius: 10px;
     border-style: none;  
@@ -334,6 +340,7 @@ ul, ol {
 .titleandbutton {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
     margin-left: 50px;
     margin-top: 100px;
@@ -353,6 +360,7 @@ ul, ol {
 }
 .footerimages {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     margin-left: 50px;
     margin-top: 40px;
@@ -368,6 +376,7 @@ ul, ol {
     opacity: 60%;
 }
 .border1 { 
+    cursor: pointer;
     border:solid #222222;
     border-radius: 10px;
     border-style: none;  
@@ -379,6 +388,7 @@ ul, ol {
     margin-top: 5px;
 }
 .border {
+    cursor: pointer;
     border:solid #D8D8D8;
     border-radius: 10px;
     border-style: none;  
@@ -405,6 +415,7 @@ ul, ol {
     width: 90%;
 }
 .firstflex h6 {
+    cursor: pointer;
     padding-top: 10px;
     color: #222222;
     font-size: 16px;
@@ -416,6 +427,7 @@ ul, ol {
     opacity: 70%;
 }
 .secondflex h6 {
+    cursor: pointer;
     padding-top: 10px;
     color: #222222;
     font-size: 16px;
@@ -427,6 +439,7 @@ ul, ol {
     opacity: 70%;
 }
 .thirdflex h6 {
+    cursor: pointer;
     padding-top: 10px;
     color: #222222;
     font-size: 16px;
@@ -438,6 +451,7 @@ ul, ol {
     opacity: 70%;
 }
 .fourthflex h6 {
+    cursor: pointer;
     padding-top: 10px;
     color: #222222;
     font-size: 16px;
@@ -452,11 +466,13 @@ ul, ol {
     margin-right: 100px;
 }
 h5 {
+    cursor: pointer;
     font-size: 16px;
     font-family: Avenir LT Std;
     opacity: 70%;
 }
 .firstflex h5 {
+    cursor: pointer;
     display: flex;
     justify-content: start;
     padding-bottom: 10px;
@@ -465,6 +481,7 @@ h5 {
     opacity: 70%;
 }
 .secondflex h5 {
+    cursor: pointer;
     display: flex;
     justify-content: start;
     padding-bottom: 10px;
@@ -481,6 +498,7 @@ h5 {
     opacity: 70%;
 }
 .fourthflex h5 {
+    cursor: pointer;
     display: flex;
     justify-content: start;
     padding-bottom: 10px;   
@@ -489,6 +507,7 @@ h5 {
     opacity: 70%;
 }
 .endoffooter {
+    cursor: pointer;
     display: flex;
     justify-content: space-between;
     margin-left: 50px;
@@ -620,6 +639,7 @@ h5 {
     border-radius: 8PX;
 }
 .filter {
+   cursor: pointer;
   border-radius: 10px;
   color: #222222;
   text-align: center;

@@ -85,13 +85,12 @@ ul, ol {
 }
 .ulitems a {
     display: flex;
-    margin-top: 10px;
     color: #FFFFFF;
 }
 .ulitems h4 {
     margin-left: 10px;
     font-size: 16px;
-    margin-top: 6px;
+    margin-top: 5px;
 }
 .secondcontainer {
     max-width: 260px;
@@ -199,11 +198,13 @@ ul, ol {
 }
 
 .headertitle1, .headertitle2 {
+    cursor: pointer;
     padding-right: 10px;
     padding-top: 23px;
     font-family: Avenir LT Std;
 }
 .profile  {
+    cursor: pointer;
     padding-right: 5px;
     padding-top: 20px;
     font-family: Avenir LT Std;
@@ -243,6 +244,7 @@ ul, ol {
     font-family: Avenir LT Std;
 }
 .firstflex h6 {
+    cursor: pointer;
     padding-top: 10px;
     color: #222222;
     font-size: 16px;
@@ -253,6 +255,7 @@ ul, ol {
     opacity: 70%;
 }
 .secondflex h6 {
+    cursor: pointer;
     padding-top: 10px;
     color: #222222;
     font-size: 16px;
@@ -263,6 +266,7 @@ ul, ol {
     opacity: 70%;
 }
 .thirdflex h6 {
+    cursor: pointer;
     padding-top: 10px;
     color: #222222;
     font-size: 16px;
@@ -273,6 +277,7 @@ ul, ol {
     opacity: 70%;
 }
 .fourthflex h6 {
+    cursor: pointer;
     padding-top: 10px;
     color: #222222;
     font-size: 16px;
@@ -287,11 +292,13 @@ ul, ol {
     opacity: 70%;
 }
 h5 {
+    cursor: pointer;
     font-size: 16px;
     font-family: Avenir LT Std;
     opacity: 70%;
 }
 .firstflex h5 {
+    cursor: pointer;
     display: flex;
     justify-content: start;
     padding-bottom: 10px;
@@ -299,6 +306,7 @@ h5 {
     opacity: 70%;
 }
 .secondflex h5 {
+    cursor: pointer;
     display: flex;
     justify-content: start;
     padding-bottom: 10px;
@@ -306,6 +314,7 @@ h5 {
     opacity: 70%;
 }
 .thirdflex h5 {
+    cursor: pointer;
     display: flex;
     justify-content: start;
     padding-bottom: 10px;
@@ -313,6 +322,7 @@ h5 {
     opacity: 70%;
 }
 .fourthflex h5 {
+    cursor: pointer;
     display: flex;
     justify-content: start;
     padding-bottom: 10px;
