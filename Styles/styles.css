@@ -630,3 +630,15 @@ h5 {
 .filter:hover {
     background-color: #FF2288;
 }
+.profile h4 {
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  transition: 0.3s;
+  width: 100px;
+  font-family: Avenir LT Std;
+}
+.profile h4:hover {
+    background-color: #cc0361da;
+}
