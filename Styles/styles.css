@@ -17,8 +17,6 @@ ul, ol {
     display: grid;
     grid-template-columns: 1fr 4fr ;
     grid-template-rows: 1fr 4fr;
-    
-
 }
 .grid-container>div {
     text-align: center;
