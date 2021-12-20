@@ -46,6 +46,7 @@ ul, ol {
 .logo {
     display: flex;
     justify-content: space-around;
+    margin-top: 20px;
 }
 .firstline {
     width: 25px;

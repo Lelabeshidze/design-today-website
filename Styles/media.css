@@ -27,53 +27,43 @@ a {
     }
     .header {
         grid-area: header;
+        flex-wrap: wrap;
     }
     .navigation {
         grid-area: navigation;
         background-color:#222222 ;
         display: flex;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        width: 100%;
     }
     .navelements {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
     }
     .mainsection {
         grid-area: mainsection;
+        flex-wrap: wrap;
+        width: 100%;
     }
     .footer {
         grid-area: footer;
+        flex-wrap: wrap;
     }
 }
 @media (max-width:480px) {
-    .grid-container {
-        max-width: 200px;
-        width: 100%;
-        margin: auto;
-        padding: auto;
-        display: grid;
-        display: flex;
+    .mainsection {
+        grid-area: mainsection;
         flex-wrap: wrap;
-        grid-gap: 0.5em;
-        grid-template-rows: 1fr;
-        grid-template-areas:
-            "navigation navigation"
-            "header header"
-            "mainsection mainsection"
-            "footer footer"
-            ;
-        grid-template-columns: 1fr;
-    }
-    .header {
-        grid-area: header;
+        width: 100%;
     }
     .navigation {
         grid-area: navigation;
         background-color:#222222 ;
-    }
-    .mainsection {
-        grid-area: mainsection;
-    }
-    .footer {
-        grid-area: footer;
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+        width: 100%;
     }
 }
