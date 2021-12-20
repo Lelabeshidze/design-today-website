@@ -372,6 +372,10 @@ ul, ol {
     border-style: none;  
     background-color: #F2F2F2;
     opacity: 1; 
+    border-width: 200px;
+    height: 30px;
+    padding-top: 10px;
+    margin-top: 5px;
 }
 .border {
     border:solid #D8D8D8;
@@ -379,6 +383,10 @@ ul, ol {
     border-style: none;  
     background-color: #F2F2F2;  
     opacity: 1; 
+    border-width: 200px;
+    height: 30px;
+    padding-top: 10px;
+    margin-top: 5px;
 }
 .secondfooter {
     max-width: 2000px;
@@ -609,4 +617,16 @@ h5 {
 .styleall7:hover {
     background-color: #F2F2F2;
     border-radius: 8PX;
+}
+.filter {
+  border-radius: 10px;
+  color: #222222;
+  text-align: center;
+  font-size: 16px;
+  transition: 0.3s;
+  width: 100px;
+  font-family: Avenir LT Std;
+}
+.filter:hover {
+    background-color: #FF2288;
 }
